@@ -40,12 +40,12 @@ to run the jar file directly (for example, by "double clicking" on it).
 ## Producing your own jar file
 To produce your own jar file:
 
-cd SolvePegs/bin
-jar cvfe ../jar/SolvePegs.jar \
+`cd SolvePegs/bin`
+`jar cvfe ../jar/SolvePegs.jar \
 ca.bgiroux.bpg.solonoble.solver.SolvePegs \
 ca/bgiroux/bpg/solonoble/package-info.class \
 ca/bgiroux/bpg/solonoble/triangular/*.class \
-ca/bgiroux/bpg/solonoble/solver/*.class
+ca/bgiroux/bpg/solonoble/solver/*.class`
 
 
 ## Licence
