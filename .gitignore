@@ -1,0 +1,4 @@
+# ignore compiled class files
+bin/
+
+# END
